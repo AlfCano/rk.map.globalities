@@ -104,7 +104,7 @@ This plugin pairs perfectly with the **Plot Continuous Map** tool from `rk.rnatu
 6.  **Value Column:** `Digital_Index`.
 7.  **Click Submit.**
 
-    <img src="screenshots/world_robinson.png" alt="World Map Robinson Projection" width="100%">
+    <img src="screenshots/example1.png" alt="World Map Robinson Projection" width="90%">
 
 ## 🛠️ Dependencies
 
