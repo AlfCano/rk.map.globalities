@@ -1,0 +1,19 @@
+Package: rk.map.globalities
+Type: Package
+Title: Downloads and creates Planispheres or Regional maps
+        (Continents/Subregions) using 'rnaturalearth'. Includes
+        built-in projection tools for aesthetic world maps.
+Version: 0.0.1
+Date: 2026-02-23
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: Downloads and creates Planispheres or Regional maps
+        (Continents/Subregions) using 'rnaturalearth'. Includes
+        built-in projection tools for aesthetic world maps.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.map.globalities
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))

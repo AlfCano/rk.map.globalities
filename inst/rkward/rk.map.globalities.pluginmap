@@ -1,0 +1,77 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="DownloadGlobalRegionalMaps"
+	id="DownloadGlobalRegionalMaps_rkward"
+	po_id="DownloadGlobalRegionalMaps_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.map.globalities"
+		shortinfo="Downloads and creates Planispheres or Regional maps (Continents/Subregions) using 'rnaturalearth'. Includes built-in projection tools for aesthetic world maps."
+		longinfo="Downloads and creates Planispheres or Regional maps (Continents/Subregions) using 'rnaturalearth'. Includes built-in projection tools for aesthetic world maps."
+		version="0.0.1"
+		releasedate="2026-02-23"
+		url="https://github.com/AlfCano/rk.map.globalities"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_DwnldGlblRgnlMpsDwnldGlRM"
+			label="Download Global/Regional Maps"
+			type="standard"
+			file="plugins/DownloadGlobalRegionalMaps.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DwnldGlblRgnlMpsDwnldGlRM"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

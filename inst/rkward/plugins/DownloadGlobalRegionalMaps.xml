@@ -1,0 +1,75 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="DownloadGlobalRegionalMaps.js" />
+	<help file="DownloadGlobalRegionalMaps.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Download Global/Regional Maps">
+		<row id="row_c1RQ1RQSRW">
+			<column id="clm_f1RQ1RQSRW">
+				<frame label="1. Region &amp; Quality" id="frm_1RgnQlty">
+					<dropdown id="drp_region" label="Select Region">
+						<option label="Whole World" value="world" checked="true" />
+						<option label="Afro-Eurasia (The Old World)" value="afro_eurasia" />
+						<option label="Americas (The New World)" value="americas" />
+						<option label="--- AMERICAS (Subregions) ---" value="sep1" />
+						<option label="North America (Continent)" value="North America" />
+						<option label="South America (Continent)" value="South America" />
+						<option label="Central America" value="Central America" />
+						<option label="Caribbean" value="Caribbean" />
+						<option label="--- EUROPE ---" value="sep4" />
+						<option label="Europe (Whole Continent)" value="Europe" />
+						<option label="Western Europe" value="Western Europe" />
+						<option label="Eastern Europe" value="Eastern Europe" />
+						<option label="Northern Europe" value="Northern Europe" />
+						<option label="Southern Europe" value="Southern Europe" />
+						<option label="--- AFRICA ---" value="sep2" />
+						<option label="Africa (Whole Continent)" value="Africa" />
+						<option label="North Africa" value="Northern Africa" />
+						<option label="Sub-Saharan Africa" value="sub_saharan" />
+						<option label="--- ASIA ---" value="sep3" />
+						<option label="Asia (Whole Continent)" value="Asia" />
+						<option label="Central Asia" value="Central Asia" />
+						<option label="East Asia" value="Eastern Asia" />
+						<option label="South Asia" value="Southern Asia" />
+						<option label="South-East Asia" value="South-Eastern Asia" />
+						<option label="West Asia (Middle East)" value="Western Asia" />
+						<option label="--- OCEANIA ---" value="sep5" />
+						<option label="Oceania" value="Oceania" />
+					</dropdown>
+					<dropdown id="drp_scale" label="Map Resolution">
+						<option label="Low (1:110m) - Fast" value="110" checked="true" />
+						<option label="Medium (1:50m) - Standard" value="50" />
+						<option label="High (1:10m) - Detailed" value="10" />
+					</dropdown>
+					<checkbox id="ex_antarc" label="Exclude Antarctica (Recommended for thematic maps)" value="1" checked="true" />
+				</frame>
+				<frame label="Projection (Planisphere Style)" id="frm_PrjctnPS">
+					<dropdown id="drp_crs" label="Transform CRS">
+						<option label="None (WGS84 Lat/Lon)" value="none" />
+						<option label="Robinson (Standard World Map)" value="ESRI:54030" checked="true" />
+						<option label="Winkel Tripel (NatGeo Standard)" value="ESRI:54042" />
+						<option label="Mollweide (Equal Area)" value="ESRI:54009" />
+						<option label="Mercator (Web Standard)" value="3857" />
+					</dropdown>
+				</frame>
+				<stretch />
+				<saveobject label="Save Map Object As (sf)" checkable="true" checked="true" initial="world_map" id="save_obj" />
+			</column>
+		</row>
+	</dialog>
+</document>

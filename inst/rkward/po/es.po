@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.map.globalities 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-02-23 18:20-0600\n"
+"PO-Revision-Date: 2026-02-23 18:20-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: Spanish <rkward-devel@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Download Global/Regional Maps"
+msgstr "Descargar Mapas Globales/Regionales"
+
+msgid "Downloads and creates Planispheres or Regional maps (Continents/Subregions) using 'rnaturalearth'. Includes built-in projection tools for aesthetic world maps."
+msgstr "Descarga y crea Planisferios o mapas Regionales (Continentes/Subregiones) usando 'rnaturalearth'. Incluye herramientas de proyección para mapas mundiales estéticos."
+
+msgid "Select Region"
+msgstr "Seleccionar Región"
+
+msgid "Whole World"
+msgstr "Mundo Entero"
+
+msgid "Afro-Eurasia (The Old World)"
+msgstr "Afro-Eurasia (El Viejo Mundo)"
+
+msgid "Americas (The New World)"
+msgstr "Américas (El Nuevo Mundo)"
+
+msgid "--- AMERICAS (Subregions) ---"
+msgstr "--- AMÉRICAS (Subregiones) ---"
+
+msgid "North America (Continent)"
+msgstr "América del Norte (Continente)"
+
+msgid "South America (Continent)"
+msgstr "América del Sur (Continente)"
+
+msgid "Central America"
+msgstr "América Central"
+
+msgid "Caribbean"
+msgstr "El Caribe"
+
+msgid "--- EUROPE ---"
+msgstr "--- EUROPA ---"
+
+msgid "Europe (Whole Continent)"
+msgstr "Europa (Continente Completo)"
+
+msgid "Western Europe"
+msgstr "Europa Occidental"
+
+msgid "Eastern Europe"
+msgstr "Europa Oriental"
+
+msgid "Northern Europe"
+msgstr "Europa del Norte"
+
+msgid "Southern Europe"
+msgstr "Europa del Sur"
+
+msgid "--- AFRICA ---"
+msgstr "--- ÁFRICA ---"
+
+msgid "Africa (Whole Continent)"
+msgstr "África (Continente Completo)"
+
+msgid "North Africa"
+msgstr "África del Norte"
+
+msgid "Sub-Saharan Africa"
+msgstr "África Subsahariana"
+
+msgid "--- ASIA ---"
+msgstr "--- ASIA ---"
+
+msgid "Asia (Whole Continent)"
+msgstr "Asia (Continente Completo)"
+
+msgid "Central Asia"
+msgstr "Asia Central"
+
+msgid "East Asia"
+msgstr "Asia Oriental"
+
+msgid "South Asia"
+msgstr "Asia del Sur"
+
+msgid "South-East Asia"
+msgstr "Sudeste Asiático"
+
+msgid "West Asia (Middle East)"
+msgstr "Asia Occidental (Oriente Medio)"
+
+msgid "--- OCEANIA ---"
+msgstr "--- OCEANÍA ---"
+
+msgid "Oceania"
+msgstr "Oceanía"
+
+msgid "Map Resolution"
+msgstr "Resolución del Mapa"
+
+msgid "Low (1:110m) - Fast"
+msgstr "Baja (1:110m) - Rápida"
+
+msgid "Medium (1:50m) - Standard"
+msgstr "Media (1:50m) - Estándar"
+
+msgid "High (1:10m) - Detailed"
+msgstr "Alta (1:10m) - Detallada"
+
+msgid "Exclude Antarctica (Recommended for thematic maps)"
+msgstr "Excluir Antártida (Recomendado para mapas temáticos)"
+
+msgid "Projection (Planisphere Style)"
+msgstr "Proyección (Estilo Planisferio)"
+
+msgid "Transform CRS"
+msgstr "Transformar CRS"
+
+msgid "None (WGS84 Lat/Lon)"
+msgstr "Ninguna (WGS84 Lat/Lon)"
+
+msgid "Robinson (Standard World Map)"
+msgstr "Robinson (Estándar Mundial)"
+
+msgid "Winkel Tripel (NatGeo Standard)"
+msgstr "Winkel Tripel (Estándar NatGeo)"
+
+msgid "Mollweide (Equal Area)"
+msgstr "Mollweide (Área Igual)"
+
+msgid "Mercator (Web Standard)"
+msgstr "Mercator (Estándar Web)"
+
+msgid "Save Map Object As (sf)"
+msgstr "Guardar Objeto de Mapa como (sf)"
+
+msgid "1. Region & Quality"
+msgstr "1. Región y Calidad"
+
+# --- JS Output ---
+
+msgid "Global/Regional Map Generated"
+msgstr "Mapa Global/Regional Generado"
+
+msgid "Region:"
+msgstr "Región:"
+
+msgid "Projection:"
+msgstr "Proyección:"
+
+msgid "Features:"
+msgstr "Entidades:"
