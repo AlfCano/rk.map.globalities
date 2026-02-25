@@ -1,6 +1,6 @@
 # rk.map.globalities: World & Regional Maps for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.map.globalities/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.map.globalities/actions/workflows/lintr.yml)
@@ -72,14 +72,12 @@ Once installed, find the tool under:
 **Scenario:** Creating a "Digital Access" Choropleth map of the World in Robinson projection.
 
 ### Step 1: Download and Project
-1.  Open **Download Global/Regional Maps**.
+1.  Open **Download -> Download Global/Regional Maps**.
 2.  **Region:** `Whole World`.
 3.  **Exclude Antarctica:** `Checked`.
 4.  **Projection:** `Robinson (Standard World Map)`.
 5.  **Save As:** `world_robinson`.
 6.  Click **Submit**.
-
-    <img src="screenshots/example1.png" alt="Downloading municipalities" width="90%">
 
 ### Step 2: Create Dummy Data
 Since we need data to plot, run this in the R Console to generate fake values for the countries we just downloaded.

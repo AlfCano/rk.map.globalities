@@ -6,7 +6,7 @@ local({
   rkwarddev.required("0.08-1")
 
   plugin_name <- "rk.map.globalities"
-  plugin_ver <- "0.0.1"
+  plugin_ver <- "0.0.2"
 
   package_about <- rk.XML.about(
     name = plugin_name,
@@ -183,12 +183,12 @@ local({
     ),
     pluginmap = list(
         name = "Download Global/Regional Maps",
-        hierarchy = list("plots", "Maps")
+        hierarchy = list("plots", "Maps", "Download")
         # po_id removed (auto-generated)
     ),
     create = c("pmap", "xml", "js", "desc", "rkh"),
     load = TRUE, overwrite = TRUE, show = FALSE
   )
 
-  cat("\nPlugin 'rk.map.globalities' (v0.0.1) generated successfully.\n")
+  cat("\nPlugin 'rk.map.globalities' (v0.0.2) generated successfully.\n")
 })

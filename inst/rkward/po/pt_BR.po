@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: rk.map.globalities 0.0.1\n"
+"Project-Id-Version: rk.map.globalities 0.0.2\n"
 "Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
 "POT-Creation-Date: 2026-02-23 18:20-0600\n"
 "PO-Revision-Date: 2026-02-23 18:20-0600\n"
@@ -14,6 +14,9 @@ msgstr ""
 
 msgid "Download Global/Regional Maps"
 msgstr "Baixar Mapas Globais/Regionais"
+
+msgid "Download"
+msgstr "Baixar"
 
 msgid "Downloads and creates Planispheres or Regional maps (Continents/Subregions) using 'rnaturalearth'. Includes built-in projection tools for aesthetic world maps."
 msgstr "Baixa e cria Planisférios ou mapas Regionais (Continentes/Sub-regiões) usando 'rnaturalearth'. Inclui ferramentas de projeção para mapas mundiais estéticos."

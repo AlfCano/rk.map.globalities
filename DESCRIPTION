@@ -3,8 +3,8 @@ Type: Package
 Title: Downloads and creates Planispheres or Regional maps
         (Continents/Subregions) using 'rnaturalearth'. Includes
         built-in projection tools for aesthetic world maps.
-Version: 0.0.1
-Date: 2026-02-23
+Version: 0.0.2
+Date: 2026-02-25
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
 Enhances: rkward
