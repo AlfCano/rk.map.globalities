@@ -59,7 +59,7 @@ The interface is fully localized to match your RKWard language settings:
 
 Once installed, find the tool under:
 
-**`Plots` -> `Maps` -> `Download Global/Regional Maps`**
+**`Plots` -> `Maps` -> `Download` -> `Download Global/Regional Maps`**
 
 1.  **Select Region:** Choose "Whole World", "Americas", "Europe", etc.
 2.  **Map Resolution:** "Medium" is recommended for most uses.
