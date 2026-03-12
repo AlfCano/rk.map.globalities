@@ -21,6 +21,8 @@
 		</setting>
 		<setting id="ex_antarc">
 		</setting>
+		<setting id="chk_eu_crop">
+		</setting>
 		<caption id="frm_PrjctnPS" />
 		<setting id="drp_crs">
 		</setting>

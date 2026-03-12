@@ -1,7 +1,7 @@
 # rk.map.globalities: World & Regional Maps for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
-![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.3-blue.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.map.globalities/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.map.globalities/actions/workflows/lintr.yml)
 ![AI Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColor=white)
@@ -27,17 +27,24 @@ Raw spatial data usually comes in "Plate Carrée" (Lat/Lon), which makes the wor
 
 ### 3. Thematic Map Best Practices
 *   **Antarctica Toggle:** Automatically exclude Antarctica with a single checkbox. This is a best practice for choropleth maps (heatmaps) to save vertical space and focus on human geography.
+*   **European Cropping (New in v0.0.3):** Check "Strict European Bounds" to automatically crop the vast Asian expanse of Russia at the Ural Mountains and remove Iceland, creating a much tighter, more aesthetically pleasing map for European analysis.
 *   **Resolution Control:** Choose between Low (1:110m) for fast previews or Medium (1:50m) for publication-quality borders.
 
 ## 📦 Installation
 
-To install this plugin in RKWard, run the following code in your R Console:
+### With `remotes` (Recommended)
+You can install this plugin directly from the repository using the `remotes` package in R.
 
 ```R
-# install.packages("devtools")
 local({
-  require(devtools)
-  install_github("AlfCano/rk.map.globalities", force = TRUE)
+## Preparar
+require(remotes)
+## Computar
+  install_github(
+    repo="AlfCano/rk.map.globalities"
+  )
+## Imprimir el resultado
+rk.header ("Resultados de Instalar desde git")
 })
 ```
 
@@ -63,7 +70,7 @@ Once installed, find the tool under:
 
 1.  **Select Region:** Choose "Whole World", "Americas", "Europe", etc.
 2.  **Map Resolution:** "Medium" is recommended for most uses.
-3.  **Options:** Check "Exclude Antarctica" for a cleaner look.
+3.  **Options:** Check "Exclude Antarctica" for a cleaner look, or "Strict European Bounds" if mapping Europe.
 4.  **Projection:** Select "Robinson" (or your preferred style).
 5.  **Save Object:** Name your map object (default: `world_map`).
 

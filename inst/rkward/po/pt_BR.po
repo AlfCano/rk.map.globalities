@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: rk.map.globalities 0.0.2\n"
+"Project-Id-Version: rk.map.globalities 0.0.3\n"
 "Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
-"POT-Creation-Date: 2026-02-23 18:20-0600\n"
-"PO-Revision-Date: 2026-02-23 18:20-0600\n"
+"POT-Creation-Date: 2026-03-11 18:43-0600\n"
+"PO-Revision-Date: 2026-03-11 18:43-0600\n"
 "Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
 "Language-Team: Portuguese (Brazil) <rkward-devel@kde.org>\n"
 "Language: pt_BR\n"
@@ -14,9 +14,6 @@ msgstr ""
 
 msgid "Download Global/Regional Maps"
 msgstr "Baixar Mapas Globais/Regionais"
-
-msgid "Download"
-msgstr "Baixar"
 
 msgid "Downloads and creates Planispheres or Regional maps (Continents/Subregions) using 'rnaturalearth'. Includes built-in projection tools for aesthetic world maps."
 msgstr "Baixa e cria Planisférios ou mapas Regionais (Continentes/Sub-regiões) usando 'rnaturalearth'. Inclui ferramentas de projeção para mapas mundiais estéticos."
@@ -120,6 +117,9 @@ msgstr "Alta (1:10m) - Detalhada"
 msgid "Exclude Antarctica (Recommended for thematic maps)"
 msgstr "Excluir Antártida (Recomendado para mapas temáticos)"
 
+msgid "Strict European Bounds (Crop Russia at Urals, remove Iceland)"
+msgstr "Limites Europeus Estritos (Cortar Rússia nos Urais, remover Islândia)"
+
 msgid "Projection (Planisphere Style)"
 msgstr "Projeção (Estilo Planisfério)"
 
@@ -146,8 +146,6 @@ msgstr "Salvar Objeto de Mapa como (sf)"
 
 msgid "1. Region & Quality"
 msgstr "1. Região e Qualidade"
-
-# --- JS Output ---
 
 msgid "Global/Regional Map Generated"
 msgstr "Mapa Global/Regional Gerado"

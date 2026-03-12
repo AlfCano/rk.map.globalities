@@ -57,6 +57,7 @@
 						<option label="High (1:10m) - Detailed" value="10" />
 					</dropdown>
 					<checkbox id="ex_antarc" label="Exclude Antarctica (Recommended for thematic maps)" value="1" checked="true" />
+					<checkbox id="chk_eu_crop" label="Strict European Bounds (Crop Russia at Urals, remove Iceland)" value="1" />
 				</frame>
 				<frame label="Projection (Planisphere Style)" id="frm_PrjctnPS">
 					<dropdown id="drp_crs" label="Transform CRS">
