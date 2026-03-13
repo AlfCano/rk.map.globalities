@@ -124,3 +124,6 @@ This plugin pairs perfectly with the **Plot Continuous Map** tool from `rk.rnatu
 *   **Author:** Alfonso Cano (<alfonso.cano@correo.buap.mx>)
 *   **Assisted by:** Gemini, a large language model from Google.
 *   **License:** GPL (>= 3)
+
+*** 
+
